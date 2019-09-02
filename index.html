@@ -9,8 +9,6 @@
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body id="top">
-<!-- Top Background Image Wrapper -->
-<div class="bgded" style="background-image:url('images/demo/backgrounds/01.png');"> 
   <!-- ################################################################################################ -->
   <div class="wrapper row1">
     <header id="header" class="hoc clear">
@@ -56,33 +54,32 @@
   </div>
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <div class="overlay">
-    <div id="pageintro" class="hoc clear"> 
+
+    <div id="pageintro" class="clear" style="background-image:url('images/demo/backgrounds/02.webp');"> 
       <!-- ################################################################################################ -->
       <article>
-        <h3 class="heading">Dapibus ligula convallis</h3>
-        <p>A massa etiam augue nunc lectus duis eget libero non nisi lobortis suscipit praesent viverra nam dapibus orci non erat aliquam erat volutpat.</p>
-        <footer><a class="btn" href="#">Gravida sem neque</a></footer>
+          <div class="mySlides w3-container">
+              <h1><b>Did You Know?</b></h1>
+              <h1><i>We plan to sell trips to the moon in the 2020s</i></h1>
+          </div>
+          <div class="mySlides w3-container">
+              <h1><b>Did 2 You Know?</b></h1>
+              <h1><i>We 2 plan to sell trips to the moon in the 2020s</i></h1>
+          </div>       
       </article>
       <!-- ################################################################################################ -->
     </div>
-  </div>
-  <!-- ################################################################################################ -->
-</div>
-<!-- End Top Background Image Wrapper -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
+
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
   <main class="hoc container clear"> 
      
-    <div class="row">
+    
         <div class="text-center container">
-            <div class="float-left" style="border: 1px solid gray;width:40%;height:280px;margin-right:20px;">ad 1</div><br>
-            <div class="float-left" style="border: 1px solid gray;width:40%;height:280px;">ad 2</div><br>
+            <div class="col-md-6 float-left" style="border: 1px solid gray;height:280px;">ad 1</div>
+            <div class="col-md-6 float-left" style="border: 1px solid gray;height:280px;">ad 2</div>
         </div>
-    </div>
+  
     <section class="group">
         <div class="text-center mt-4">
             <h2>Photo editor / beautify</h2>
@@ -195,51 +192,7 @@
     <div class="clear"></div>
   </main>
 </div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row3">
-  <figure class="hoc container clear clients"> 
-    <!-- ################################################################################################ -->
-    <figcaption class="sectiontitle">
-      <p class="nospace font-xs">Nisl donec eu neque nisi molestie</p>
-      <p class="heading underline font-x2">Pellentesque donec ut dolor</p>
-    </figcaption>
-    <ul class="nospace group">
-      <li class="one_quarter first"><a class="imgover" href="#"><img src="images/demo/249x100.png" alt=""></a></li>
-      <li class="one_quarter"><a class="imgover" href="#"><img src="images/demo/249x100.png" alt=""></a></li>
-      <li class="one_quarter"><a class="imgover" href="#"><img src="images/demo/249x100.png" alt=""></a></li>
-      <li class="one_quarter"><a class="imgover" href="#"><img src="images/demo/249x100.png" alt=""></a></li>
-      <li class="one_quarter first"><a class="imgover" href="#"><img src="images/demo/249x100.png" alt=""></a></li>
-      <li class="one_quarter"><a class="imgover" href="#"><img src="images/demo/249x100.png" alt=""></a></li>
-      <li class="one_quarter"><a class="imgover" href="#"><img src="images/demo/249x100.png" alt=""></a></li>
-      <li class="one_quarter"><a class="imgover" href="#"><img src="images/demo/249x100.png" alt=""></a></li>
-    </ul>
-    <!-- ################################################################################################ -->
-  </figure>
-</div>
 
-<div class="wrapper coloured">
-  <section id="ctdetails" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <ul class="nospace clear">
-      <li class="one_quarter first">
-        <div class="block clear"><a href="#"><i class="fas fa-phone"></i></a> <span><strong>Give us a call:</strong> +00 (123) 456 7890</span></div>
-      </li>
-      <li class="one_quarter">
-        <div class="block clear"><a href="#"><i class="fas fa-envelope"></i></a> <span><strong>Send us a mail:</strong> support@domain.com</span></div>
-      </li>
-      <li class="one_quarter">
-        <div class="block clear"><a href="#"><i class="fas fa-clock"></i></a> <span><strong> Monday - Saturday:</strong> 08.00am - 18.00pm</span></div>
-      </li>
-      <li class="one_quarter">
-        <div class="block clear"><a href="#"><i class="fas fa-map-marker-alt"></i></a> <span><strong>Come visit us:</strong> Directions to <a href="#">our location</a></span></div>
-      </li>
-    </ul>
-    <!-- ################################################################################################ -->
-  </section>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="bgded overlay row4" style="background-image:url('images/demo/backgrounds/01.png');">
   <footer id="footer" class="hoc clear"> 
@@ -318,5 +271,22 @@
 <script src="layout/scripts/jquery.min.js"></script>
 <script src="layout/scripts/jquery.backtotop.js"></script>
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
+
+<script>
+    var slideIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+      }
+      slideIndex++;
+      if (slideIndex > x.length) {slideIndex = 1} 
+      x[slideIndex-1].style.display = "block"; 
+      setTimeout(carousel, 2000); 
+    }
+    </script>
 </body>
 </html>
