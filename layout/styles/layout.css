@@ -1,13 +1,4 @@
 @charset "utf-8";
-/*
-Template Name: Nocobot
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Copyright: OS-Templates.com
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
-File: Layout CSS
-*/
 
 @import url("fontawesome-free/css/fontawesome-all.min.css");
 @import url("framework.css");
@@ -27,13 +18,13 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #header{}
 
-#header #logo{margin:22px 0 0 0;}
+#header #logo{margin:8px 0 0 0;}
 #header #logo h1{margin:0; padding:0; font-size:2.2rem;}
 
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:200px 0 200px;}/* 400px => 200px for #introblocks negative margin */
+#pageintro{padding:100px 0 100px;}/* 400px => 200px for #introblocks negative margin */
 
 #pageintro article{display:block;  margin:0 auto; text-align:center; color: #ffffff;}
 
@@ -290,4 +281,32 @@ td{border-width:0 1px;}
 
 	.font-x2{font-size:1.6rem;}
 	.font-x3{font-size:1.8rem;}
+}
+
+.slider h1 a{
+	color: #853433;
+	font-size: 36px;
+}
+
+.slider p{
+	color: #E85301;
+	font-size: 26px;
+}
+
+
+.absolutely_free{
+	border: 1px solid #E85301;
+	color: #E85301;
+	border-radius: 8px;
+	padding: 8px;
+	font-weight: bold;
+	display: inline;
+}
+.start_btn{
+	border: 1px solid #853433;
+	color: #E85301 !important;
+	border-radius: 8px;
+	padding: 15px;
+	font-weight: bold;
+	display: inline;
 }
