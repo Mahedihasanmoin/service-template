@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147427193-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'UA-147427193-3');
-</script>
-<title>Product design tool | photo resize | internet speed test | json viewer | aimraj</title>
+    gtag('config', 'UA-147427193-3');
+  </script>
+  <title>Product design tool | photo resize | internet speed test | json viewer | aimraj</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="Internet Speed Test, Json viewer, json beautifier Photo edit online, image resize, product design tool">
@@ -16,13 +16,15 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap_4.1.1.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
   </head>
   <body>
   <!-- <div class="row"> -->
     <?php include 'header.php'; ?>
   <!-- </div> -->
 
-  <section style="height:400px;margin-top:80px;background-image:url('images/bg.jpg');display: flex;">
+  <section style="height:400px;margin-top:80px;background-image:url('images/bg-min.jpg');display: flex;">
     <?php include 'slider.php'; ?>
   </section>
 
