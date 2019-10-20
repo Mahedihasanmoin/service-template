@@ -1,3 +1,10 @@
+<style>
+  .nav-item{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+</style>
 <nav class="navbar fixed-top navbar-toggler navbar-expand-lg bg-dark navbar-dark">
   <div class="container">
     <a class="navbar-brand" href="/index.php"><img src="images/l.png"></a>
@@ -6,11 +13,11 @@
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="/online-photo-editor.php">Online Photo Editor</a>
-        <a class="nav-item nav-link" href="/product-designer-online.php">Product Designer</a>
-        <a class="nav-item nav-link" href="#">JS Formatter</a>
-        <a class="nav-item nav-link" href="#">Internet speed Tester</a>
+        <a class="nav-item nav-link active" href="./index.php">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="./online-photo-editor.php">Online Photo Editor</a>
+        <a class="nav-item nav-link" href="./product-designer-online.php">Product Designer</a>
+        <a class="nav-item nav-link" href="./json-formatter.php">JS Formatter</a>
+        <a class="nav-item nav-link" href="./speed-test.php">Internet speed Tester</a>
         
       </div>
     </div>

@@ -19,34 +19,34 @@
   <div class="container" style="margin-top:110px">
   <div class="row mt-4">
       <div class="col-md-12 col-sm-12">
-        <p class="text-center" style="padding: .75rem 1rem;margin-bottom: 1rem;background-color: #e9ecef;border-radius: .25rem;">Product designer</p>
+        <p class="text-center" style="padding: .75rem 1rem;margin-bottom: 1rem;background-color: #e9ecef;border-radius: .25rem;">Internet Speed Test</p>
       </div>
       <div class="col-md-6 col-sm-6">
         <div class="card">
-          <img class="card-img" alt="photo-editor.jpg" src="images/designer.png" data-holder-rendered="true" style="height: 100%; width: 100%; display: block;">
+          <img class="card-img" alt="speed" src="images/speed.jpg" data-holder-rendered="true" style="height: 100%; width: 100%; display: block;"> 
         </div>
       </div>
       <div class="col-md-6 col-sm-6">
         <div class="row">
           <div class="col-md-6 col-sm-6">
-            <a href="http://internet-speed-test.info" target="_blank"><h5>Posuere Ultricies</h5></a>
-            <p>Sed tellus fusce velit orci aliquet et condimentum sit amet dapibus eget odio vivamus urna pellentesque felis…</p>
+            <a href="http://internet-speed-test.info" target="_blank"><h5>Download Speed Test</h5></a>
+            <p>Accumsan curabitur cursus porta lectus nam posuere orci in elementum molestie purus erat volutpat ullamcorper</p>
           </div>
           <div class="col-md-6 col-sm-6">
-            <a href="http://internet-speed-test.info" target="_blank"><h5>Pellentesque Ipsum</h5></a>
+            <a href="http://internet-speed-test.info" target="_blank"><h5>Upload Speed Test</h5></a>
             <p>Ut quam imperdiet tincidunt vestibulum eget magna eget sem imperdiet tincidunt praesent sit amet adipiscing…</p>
           </div>
           <div class="col-md-6 col-sm-6">
-            <a href="http://internet-speed-test.info" target="_blank"><h5>Risus Auctor Vel</h5></a>
+            <a href="http://internet-speed-test.info" target="_blank"><h5>Latency (Ping)</h5></a>
             <p>Accumsan curabitur cursus porta lectus nam posuere orci in elementum molestie purus erat volutpat ullamcorper…</p>
           </div>
           <div class="col-md-6 col-sm-6">
-            <a href="http://internet-speed-test.info" target="_blank"><h5>Volutpat Vitae</h5></a>
-            <p>Elit purus non odio etiam dictum euismod lectus vestibulum tincidunt erat vel molestie gravida ligula lacus…</p>
+            <a href="http://internet-speed-test.info" target="_blank"><h5>Connection Details</h5></a>
+            <p>Ut quam imperdiet tincidunt vestibulum eget magna eget sem imperdiet tincidunt praesent sit amet adipiscing…</p>
           </div>
         </div>
       </div>
-    </div><!-- row3 end -->
+    </div><!-- row1 end -->
   </div>
   
   <!-- <div class="row"> -->

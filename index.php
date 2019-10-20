@@ -15,9 +15,9 @@
     <?php include 'header.php'; ?>
   <!-- </div> -->
 
-  <div class="row" style="height:400px">
+  <section style="height:400px;margin-top:80px;background-image:url('images/bg.jpg');display: flex;">
     <?php include 'slider.php'; ?>
-  </div>
+  </section>
 
   
   <div class="container mt-6">
