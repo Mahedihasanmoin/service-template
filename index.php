@@ -65,7 +65,9 @@
 
     <div class="row mt-4">
       <div class="col-md-12 col-sm-12">
-        <h2 class="text-center" style="padding: .75rem 1rem;margin-bottom: 1rem;background-color: #e9ecef;border-radius: .25rem;">Online photo Editor</h2>
+        <h2 class="text-center" style="padding: .75rem 1rem;margin-bottom: 1rem;background-color: #e9ecef;border-radius: .25rem;">
+          <a href="https://photoeditor.aimraj.com" target="_blank">Photo Editor</a>
+        </h2>
       </div>  
       <div class="col-md-6 col-sm-6">
         <div class="card">
